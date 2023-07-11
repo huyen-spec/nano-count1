@@ -1,0 +1,127 @@
+{
+    "os": "Linux-5.11.0-40-generic-x86_64-with-glibc2.31",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-04-28T00:56:26.249506",
+    "startedAt": "2023-04-28T00:56:25.867002",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--use_gaus",
+        "--filter_sigma",
+        "3.0",
+        "--learning_rate",
+        "1e-5",
+        "--batch_size",
+        "5"
+    ],
+    "state": "running",
+    "program": "/home/huyentn2/project/nano_count/segmentation_unet/train_parse.py",
+    "codePath": "train_parse.py",
+    "host": "cig-03",
+    "username": "huyentn2",
+    "executable": "/home/huyentn2/.conda/envs/nano/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3.814812499999999,
+        "min": 800.0,
+        "max": 5100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.037,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        }
+    ],
+    "disk": {
+        "total": 457.3512420654297,
+        "used": 66.41558837890625
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25447170048
+        }
+    ],
+    "memory": {
+        "total": 62.68330001831055
+    }
+}
